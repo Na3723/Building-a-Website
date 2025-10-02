@@ -1,0 +1,87 @@
+p {
+  font-family: 'Yatra One';
+  text-align: center;
+  color: #c7c3c3;
+  margin-top: -25px;
+}
+
+body {
+    background-image: url('https://cdn.glitch.global/3c35e815-c8a9-4dca-9cd9-5c13f0ce66a2/bkg.jpg?v=1730428282427');
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #e7e7e7;
+  background-color: #f3f3f3;
+  font-family: 'Bonheur Royale';
+  font-size: 20px;
+  display: flex;
+  position: fixed;  /* Fixes the position of the list */
+  top: 185px;        /* Adjust the distance from the top of the page */
+  left: 0;          /* Sticks it to the left side of the page */
+  width: 100%;      /* Make it full width */
+  z-index: 1000;    /* Ensure it stays on top of other elements */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow for depth */
+}
+
+
+li {
+  flex: 1;
+}
+
+li a {
+  display: flex;
+  color: #666;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  background-color: none;
+}
+
+li a:hover:not(.active) {
+    background-color: white;
+}
+
+li a.active {
+  color: black;
+  background-color: white;
+}
+
+.about-heading {
+  font-family: 'Yatra One';
+  text-align: center;
+  font-size: 30px;
+  margin-top: 110px;
+  background: linear-gradient(#000, #000, #fff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-style: italic;
+}
+
+.about-subhead {
+  margin: 40px 40px 10px 60px;
+  text-decoration: underline;
+  text-align: left;
+}
+
+.about-summary {
+  font-family: 'Forum';
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: left;
+  margin: 10px 60px;
+  color: #696969;
+}
+
+.week8, .week9, .week10, .week11 {
+  margin: 10px 60px;
+  text-align: left;
+  color: #000080;
+}
+
