@@ -6,7 +6,7 @@ p {
 }
 
 body {
-    background-image: url('https://cdn.glitch.global/3c35e815-c8a9-4dca-9cd9-5c13f0ce66a2/bkg.jpg?v=1730428282427');
+    background-image: url('assets/background-image.jpg');
 }
 
 ul {
@@ -26,7 +26,6 @@ ul {
   z-index: 1000;    /* Ensure it stays on top of other elements */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow for depth */
 }
-
 
 li {
   flex: 1;
