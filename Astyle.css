@@ -11,7 +11,7 @@ body {
 
 ul {
   list-style-type: none;
-  margin: 0;
+  margin: -20px;
   padding: 0;
   overflow: hidden;
   border: 1px solid #e7e7e7;
@@ -19,11 +19,7 @@ ul {
   font-family: 'Bonheur Royale';
   font-size: 20px;
   display: flex;
-  position: fixed;  /* Fixes the position of the list */
-  top: 185px;        /* Adjust the distance from the top of the page */
-  left: 0;          /* Sticks it to the left side of the page */
   width: 100%;      /* Make it full width */
-  z-index: 1000;    /* Ensure it stays on top of other elements */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow for depth */
 }
 
