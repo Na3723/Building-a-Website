@@ -41,9 +41,9 @@ p {
 .image-container img {
     display: block; 
     border: 1px solid #dddddd; 
-    border-radius: 2px;   
-    max-height: 300px;               
-    max-width: 300px;                
+    border-radius: 2px; 
+    height: 300px;               
+    width: 300px;                
     object-fit: cover;           
     padding: 1; 
 }
