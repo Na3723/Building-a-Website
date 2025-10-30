@@ -42,10 +42,8 @@ p {
     display: block; 
     border: 1px solid #dddddd; 
     border-radius: 2px; 
-    max-height: 310px;               
-    max-width: 300px;
- height: auto;
- width: auto;
+ height: 310px;
+ width: 300px;
     object-fit: cover;           
     padding: 1; 
 }
@@ -182,8 +180,7 @@ li a.active {
 }
 
 .intro-text {
-    margin: 1px auto; /* Add your desired margin here */
- margin-top: 50px;
+    margin: auto; /* Add your desired margin here */
     max-width: 800px; /* Optional: Limit the width for better readability */
     text-align: center; /* Ensure the text remains centered */
 }
