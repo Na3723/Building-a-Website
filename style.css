@@ -23,7 +23,7 @@ p {
   font-family: 'Yatra One';
   text-align: center;
   color: #c7c3c3;
-  margin-top: -60px;
+  margin-top: -50px;
 }
 
 .row {
@@ -33,7 +33,7 @@ p {
 }
 .image-container {
     position: relative; 
-    margin: 10px;       
+    margin: 5px;       
 }
 
 .image-container img {
