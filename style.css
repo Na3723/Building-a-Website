@@ -168,8 +168,6 @@ li a {
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-
-
 li a:hover:not(.active) {
     background-color: white;
 }
