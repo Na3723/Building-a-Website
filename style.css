@@ -14,8 +14,9 @@ h3 {
   text-align: center;
   opacity: 0;
   animation: fadeIn 15s forwards;
- margin-top: 20px;
+ margin-top: 100px;
 }
+
 @keyframes fadeIn {
             to { opacity: 1; }
         }
