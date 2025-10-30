@@ -23,6 +23,7 @@ p {
   text-align: center;
   color: #c7c3c3;
  margin-top: 5;
+ margin-bottom: -10;
 }
 
 .row {
@@ -139,7 +140,6 @@ body {
 ul {
   list-style-type: none;
   padding: 0;
- margin-top: -5;
   overflow: hidden;
   border: 1px solid #e7e7e7;
   background-color: #f3f3f3;
