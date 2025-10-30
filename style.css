@@ -1,3 +1,4 @@
+
 h1 {
  font-family: 'Cedarville Cursive';
   text-align: center;
@@ -14,14 +15,11 @@ h3 {
   opacity: 0;
   animation: fadeIn 15s forwards;
  margin-top: 100px;
-
 }
-
 
 @keyframes fadeIn {
             to { opacity: 1; }
         }
-
 
 p {
   font-family: 'Yatra One';
@@ -31,15 +29,11 @@ p {
 
 }
 
-
 .row {
     display: flex;               
     justify-content: center;     
     flex-wrap: wrap;    
-
 }
-
-
 .image-container {
     position: relative; 
     margin: 15px;       
@@ -53,8 +47,6 @@ p {
  width: 300px;
     object-fit: cover;           
     padding: 1; 
-
-
 }
 
 .image-container::after {
@@ -89,7 +81,6 @@ img {
 
 }
 
-
 .text {
     color: white; 
     font-size: 27px; 
@@ -108,7 +99,6 @@ img {
     opacity: 1; 
 }
 
-
 .container {
     display: flex;
     justify-content: center;
@@ -118,7 +108,6 @@ img {
     transform: scale(0.8);
    margin-top: 10px;
 }
-
 
 body {
     background-image: url('assets/background-image.jpg');
@@ -151,7 +140,6 @@ body {
                 transform: translateX(-100%);
             }
         }
-
 
 ul {
   list-style-type: none;
@@ -191,8 +179,3 @@ li a.active {
   color: black;
   background-color: white;
 }
-
-
-
-
-
