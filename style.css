@@ -14,7 +14,7 @@ h3 {
   text-align: center;
   opacity: 0;
   animation: fadeIn 15s forwards;
- margin-top: 20px;
+ margin-top: 60px;
 }
 @keyframes fadeIn {
             to { opacity: 1; }
@@ -42,8 +42,10 @@ p {
     display: block; 
     border: 1px solid #dddddd; 
     border-radius: 2px; 
-    height: 300px;               
-    width: 300px;                
+    max-height: 310px;               
+    max-width: 300px;
+ height: auto;
+ width: auto;
     object-fit: cover;           
     padding: 1; 
 }
