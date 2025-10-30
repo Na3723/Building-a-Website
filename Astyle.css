@@ -52,7 +52,6 @@ li a.active {
   text-align: center;
   font-size: 30px;
   margin-top: 60px;
-  margin-bottom: 100px;
   background: linear-gradient(#000, #000, #fff);
   -webkit-background-clip: text;
   background-clip: text;
