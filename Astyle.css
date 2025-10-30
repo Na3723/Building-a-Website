@@ -51,8 +51,8 @@ li a.active {
   font-family: 'Yatra One';
   text-align: center;
   font-size: 30px;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 30px;
+  margin-bottom: 50px;
   background: linear-gradient(#000, #000, #fff);
   -webkit-background-clip: text;
   background-clip: text;
