@@ -2,7 +2,7 @@ p {
   font-family: 'Yatra One';
   text-align: center;
   color: #c7c3c3;
-  margin-top: -25px;
+  margin-top: -20px;
 }
 
 body {
@@ -79,4 +79,5 @@ li a.active {
   text-align: left;
   color: #000080;
 }
+
 
