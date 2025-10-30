@@ -10,7 +10,7 @@ h3 {
   font-family: 'Kanit';
   color: grey;
     font-size: 15px;
-  justify-content: center;
+  text-align: center;
   opacity: 0;
   animation: fadeIn 15s forwards;
  margin-top: 40px;
