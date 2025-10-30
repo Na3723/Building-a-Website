@@ -167,13 +167,13 @@ li a.active {
 
 /* ===== CSS-Only Fix for Intro Text Placement ===== */
 
-/* Place h3 under the row of images */
+/* Place h3 under the row of images with max width */
 .row + h3.intro-text {
     display: block;
     width: 100%;
+    max-width: 800px;   /* limit width */
     text-align: center;
-    margin-top: 20px;  /* space below images */
-    margin-bottom: 20px; /* space above audio */
+    margin: 5px auto;  /* centers and adds space above/below */
     opacity: 0;
     animation: fadeIn 15s forwards;
 }
@@ -181,5 +181,6 @@ li a.active {
 /* Center the audio and add spacing below */
 .row + h3.intro-text + audio {
     display: block;
-    margin: 0 auto 40px auto; /* centers audio and adds space below */
+    margin: 0 auto 10px auto; /* centers audio and adds space below */
 }
+
