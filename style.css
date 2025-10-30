@@ -183,6 +183,7 @@ li a.active {
 
 .intro-text {
     margin: 1px auto; /* Add your desired margin here */
+ margin-top: 50px;
     max-width: 800px; /* Optional: Limit the width for better readability */
     text-align: center; /* Ensure the text remains centered */
 }
