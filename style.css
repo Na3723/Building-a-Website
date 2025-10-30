@@ -171,7 +171,7 @@ li a.active {
 .row + h3.intro-text {
     display: block;
     width: 100%;
-    max-width: 800px;   /* limit width */
+    max-width: 400px;   /* limit width */
     text-align: center;
     margin: 5px auto;  /* centers and adds space above/below */
     opacity: 0;
