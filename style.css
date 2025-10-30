@@ -10,13 +10,12 @@ h3 {
   font-family: 'Kanit';
   color: grey;
     font-size: 15px;
-  text-align: center;
+  justify-content: center;
   opacity: 0;
   animation: fadeIn 15s forwards;
- margin-top: 100px;
+ margin-top: 40px;
 
 }
-
 
 @keyframes fadeIn {
             to { opacity: 1; }
