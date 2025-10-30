@@ -14,9 +14,8 @@ h3 {
   text-align: center;
   opacity: 0;
   animation: fadeIn 15s forwards;
- margin-top: 100px;
+ margin-top: 15px;
 }
-
 @keyframes fadeIn {
             to { opacity: 1; }
         }
@@ -42,9 +41,9 @@ p {
 .image-container img {
     display: block; 
     border: 1px solid #dddddd; 
-    border-radius: 2px; 
- height: 310px;
- width: 300px;
+    border-radius: 2px;         
+    height: 310px;               
+    width: 300px;                
     object-fit: cover;           
     padding: 1; 
 }
@@ -106,7 +105,7 @@ img {
     height: 100%; 
     text-align: center;
     transform: scale(0.8);
-   margin-top: 10px;
+   margin-top: 20px;
 }
 
 body {
@@ -143,7 +142,6 @@ body {
 
 ul {
   list-style-type: none;
- margin: 0px;
   margin-top: 20px;
  margin-bottom: 20px;
   padding: 0;
@@ -178,4 +176,10 @@ li a:hover:not(.active) {
 li a.active {
   color: black;
   background-color: white;
+}
+
+.intro-text {
+    margin: 1px auto; /* Add your desired margin here */
+    max-width: 800px; /* Optional: Limit the width for better readability */
+    text-align: center; /* Ensure the text remains centered */
 }
