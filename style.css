@@ -171,9 +171,9 @@ li a.active {
 .row + h3.intro-text {
     display: block;
     width: 100%;
-    max-width: 300px;   /* limit width */
+    max-width: 380px;   /* limit width */
     text-align: center;
-    margin: 10px auto;  /* centers and adds space above/below */
+    margin: 5px auto;  /* centers and adds space above/below */
     opacity: 0;
     animation: fadeIn 15s forwards;
 }
