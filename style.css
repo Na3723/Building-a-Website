@@ -171,7 +171,7 @@ li a.active {
 .row + h3.intro-text {
     display: block;
     width: 100%;
-    max-width: 380px;   /* limit width */
+    max-width: 800px;   /* limit width */
     text-align: center;
     margin: 5px auto;  /* centers and adds space above/below */
     opacity: 0;
@@ -181,6 +181,6 @@ li a.active {
 /* Center the audio and add spacing below */
 .row + h3.intro-text + audio {
     display: block;
-    margin: 0 auto 15px auto; /* centers audio and adds space below */
+    margin: 0 auto 5px auto; /* centers audio and adds space below */
 }
 
