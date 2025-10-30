@@ -179,8 +179,4 @@ li a.active {
   background-color: white;
 }
 
-.intro-text {
- margin: 0px;
-    max-width: 800px; /* Optional: Limit the width for better readability */
-    text-align: center; /* Ensure the text remains centered */
-}
+
