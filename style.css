@@ -145,8 +145,7 @@ ul {
   margin: 0;
   padding: 0;
   display: flex;
-  justify-content: space-evenly; /* Even horizontal spacing between all links */
-  align-items: center;
+  justify-content: center;  /* Center all items evenly */
   background-color: #f3f3f3;
   border: 1px solid #e7e7e7;
   width: 100%;
@@ -156,17 +155,19 @@ ul {
 }
 
 li {
-  /* No flex:1 — let spacing come from justify-content instead */
+  flex: 1; /* Each item takes equal width */
+  text-align: center;
 }
 
 li a {
   display: block;
-  text-align: center;
+  width: 100%;
+  padding: 14px 0; /* Consistent vertical space */
   color: #666;
   text-decoration: none;
-  padding: 14px 30px; /* Adjust this for desired gap around text */
   transition: background-color 0.3s ease, color 0.3s ease;
 }
+
 
 
 li a:hover:not(.active) {
