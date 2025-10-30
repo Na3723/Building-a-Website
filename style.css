@@ -23,7 +23,7 @@ p {
   font-family: 'Yatra One';
   text-align: center;
   color: #c7c3c3;
-  margin-top: 20px;
+  margin-top: 10px;
 
 }
 
@@ -34,7 +34,7 @@ p {
 }
 .image-container {
     position: relative; 
-    margin: 5px;       
+    margin: 15px;       
 }
 
 .image-container img {
