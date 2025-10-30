@@ -30,7 +30,9 @@ p {
 .row {
     display: flex;               
     justify-content: center;     
-    flex-wrap: wrap;             
+    flex-wrap: wrap;    
+    margin-top: 10px;
+   margin-bottom: 10px;
 }
 .image-container {
     position: relative; 
